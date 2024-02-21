@@ -5,11 +5,11 @@
 }
 
 
-
 body{
     background-color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
 }
+
 
 
 .menu-icon .fa-solid{
@@ -202,7 +202,6 @@ body{
     border-radius: 5px;
     padding: 12px;
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
-    /* border: .5px solid rgb(196, 188, 188); */
     background: rgb(255, 255, 255);
 }
 
@@ -326,6 +325,7 @@ footer a :hover{
 
 
 
+
 /* responsive width for phone */
 
 
@@ -414,6 +414,128 @@ footer{
 }
     
 }
+
+
+/* medium size screen responsive */
+
+
+/* @media only screen and (min-width: 768px){ 
+
+    .header{
+        display: flex;
+        gap: 8%;
+        
+    }
+
+      
+    .nav-bar{
+        width: 60%;
+     }
+     
+     .nav-bar ul li a{
+        font-size: 13px;
+     }
+
+
+     .company-name p{
+        font-size: 16px;
+        width: 200px;
+     }
+    
+    
+    .company-name{
+        width: 40%;
+        font-weight: 900;
+    }
+
+
+     .container-1{
+        width: 100%;
+        gap: 0;
+     }
+
+
+     .booking{
+        width: 500px;
+     }
+
+     .booking h2{
+        font-size: 25px;
+     }
+
+     .booking a{
+        font-size: 16px;
+     }
+
+
+    .e-commerce{
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 45px;
+        width: 700px;
+    }
+    
+    
+    
+    .collection p{
+        padding: 50px;
+        margin: auto;
+    }
+    
+    
+    .product-img{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 5%;
+    }
+    
+    
+    .join-us{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        width: 100%;
+    }
+    
+    
+    .join-link{
+        width: 750px;
+        text-align: center;
+    }
+
+
+    .join-img{
+        width: 100%;
+    }
+
+    .join-img img{
+        width: 80%;
+    }
+    
+    
+    footer{
+        font-size: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    
+    
+    .menu-icon{
+        position: absolute;
+        display: inline-block;
+        transform: translateY(-53px);
+    }
+    
+    
+    .menu-icon .fa-solid:hover{
+        color: rgb(247, 119, 0);
+        cursor: pointer;
+    }
+        
+    }  */
 
 
 
