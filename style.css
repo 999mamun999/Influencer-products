@@ -12,6 +12,18 @@ body{
 }
 
 
+.menu-icon .fa-solid{
+    font-size: 30px;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
 .nav-bar{
     width: 60%;
  }
@@ -384,7 +396,21 @@ footer a :hover{
 footer{
     font-size: 10px;
     text-align: center;
-    width: 470px;
+    width: 480px;
+}
+
+
+
+.menu-icon{
+    position: absolute;
+    display: inline-block;
+    transform: translateY(-47px);
+}
+
+
+.menu-icon .fa-solid:hover{
+    color: rgb(247, 119, 0);
+    cursor: pointer;
 }
     
 }
