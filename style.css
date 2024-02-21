@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+}
+
+
+.nav-bar{
+    width: 60%;
+ }
+ 
+
+.nav-bar ul{
+    display: flex;
+}
+
+
+
+.nav-bar ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+.nav-bar ul li a:hover{
+    color: rgb(233, 112, 112);
+}
+
+
+
+
+.fa-solid{
+    color: black;
+}
+
+
+.company-name{
+    width: 40%;
+}
+
+
+.company-name p{
+    font-size: 24px;
+    font-weight: 700px;
+    margin-left: 120px;
+}
+
+
+
+.header{
+    width: 100%;
+    display: flex;
+    gap: 40%;
+    margin-top: 20px;
+}
+
+
+
+.booking{
+    margin-left: 10%;
+    width: 682px;
+    height: 27px;
+}
+
+
+.booking h2{
+    font-size: 52px;
+    font-weight: 700px;
+}
+
+
+
+.booking p{
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+
+
+.booking a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(224, 44, 109);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+.booking .fa-solid{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+
+
+.booking a:hover{
+    color: rgb(100, 61, 61);
+}
+
+
+.camera{
+    margin-right: 10%;
+}
+
+
+.container-1{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-bottom: 100px;
+}
+
+
+
+.e-commerce{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(226, 115, 115);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.e-commerce a{
+    display: flex;
+    margin: auto;
+    padding: 10px;  
+}
+
+
+
+.e-commerce a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.collection{
+    margin-bottom: 70px;
+}
+
+
+
+.collection p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+
+.product-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 50px 50px;
+}
+
+
+
+.product-img div{
+    background-color: white;
+    height: 476px;
+    width: 329px;
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+    /* border: .5px solid rgb(196, 188, 188); */
+    background: rgb(255, 255, 255);
+}
+
+
+
+.product-img div:hover{
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.product-img div a{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-weight: 500px;
+}
+
+
+.product-img div a:hover{
+    color: rgb(44, 189, 194);
+}
+
+
+.ratting{
+    display: inline;
+}
+
+
+
+.next-page{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.next-page a{
+    text-decoration: none;
+    color: rgb(224, 44, 109);
+    font-size: 20px;
+    font-weight: 900px;
+   
+}
+
+
+.next-page a:hover{
+    background-color: antiquewhite;
+    border-radius: 35px;
+    padding: 0px 8px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.next-page .fa-solid{
+    color: rgb(224, 44, 109);
+    padding: 8px;
+}
+
+
+
+.join-us{
+    margin-top: 100px;
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.join-link{
+    margin-right: 10%;
+    width: 600px;
+}
+
+
+
+.join-link a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:  rgb(224, 44, 109);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+
+.join-link a:hover{
+    color: rgb(15, 15, 17);
+}
+
+
+
+.join-img{
+    margin-left: 10%;
+}
+
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(11, 8, 26);
+}
+
+
+
+footer img{
+    padding: 20px;
+}
+
+
+
+footer a :hover{
+    background-color: rgb(34, 38, 87);
+    border-radius: 5px;
+}
+
+
+
+/* responsive width for phone */
+
+
+@media only screen and (max-width: 600px){
+      
+.nav-bar{
+    display: none;
+ } 
+
+
+.company-name{
+    width: 100%;
+    font-weight: 900;
+}
+
+.container-1{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+
+.booking{
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.e-commerce{
+    margin-top: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 45px;
+    width: 390px;
+}
+
+
+
+.collection p{
+    margin-right: 100px; 
+}
+
+
+.product-img{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 5%;
+}
+
+
+.join-us{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 60%;
+}
+
+
+.join-link{
+    width: 450px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    width: 470px;
+}
+    
+}
+
+
+
